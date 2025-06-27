@@ -1,4 +1,8 @@
 const swLinks = [ 
+   {
+    text: "What We Share [Basilisk Tree]",
+    url: "https://basilisktree.com/-v3i2-keeble",
+  },
   {
     text: "The Flowers of Mount Olympus [Twin Bird Review]",
     url: "https://www.twinbirdreview.com/12---f---keeble.html",
