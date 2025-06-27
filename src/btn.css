@@ -1,0 +1,75 @@
+.btn{
+    color:black;
+    border: none;
+    background-color: transparent;
+    font-weight: 100;
+    font-size: 3.5vh;
+}
+.btn:hover{
+    color:white;
+    background-color:pink;
+    border-radius: 10%;
+}
+.tabs{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:10%;
+    
+    
+}
+
+a{
+    color: rgb(216, 112, 129);
+    
+}
+
+.title{
+    color: pink;
+    position: relative;
+    left:7%;
+}
+@media (max-width: 600px) {
+    .btn {
+        font-size: 2.5vh;
+    }
+    
+    .tabs {
+        flex-direction: column;
+        gap: 5%;
+    }
+    
+    .title {
+        left: 0;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        font-size: 5.5vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+}
+@media (min-width:640px) and (max-width:767px){
+    .title {
+        margin: 0
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .title {
+        left: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+       
+        font-size: 3.5vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1023px)and (min-height:768px) and (max-height:1500px){
+    .title {
+        margin-bottom: 2%;
+    }
+}

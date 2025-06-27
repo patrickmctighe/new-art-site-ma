@@ -1,0 +1,31 @@
+.list {
+  font-size: 20px;
+  font-weight: 100;
+  text-decoration: none;
+  color: black;
+}
+.aList {
+  color: black;
+  font-size: .9em;
+}
+.list:hover{
+    background-color: pink;
+}
+.print{
+    padding-top: 1em;
+}
+
+@media (max-width: 600px) {
+    .list {
+        font-size: 16px;
+        width: 90%;
+    }
+    
+    .aList {
+        font-size: 0.8em;
+    }
+    
+    .print {
+        padding-top: 0.5em;
+    }
+}
