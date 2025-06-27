@@ -1,7 +1,7 @@
 import Swiper, { Navigation, Pagination } from "swiper";
 import { createTabs } from "./tabs";
 
-import slide1 from "./images/headshot1.png";
+import slide1 from "./images/headshot1.jpg";
 import slide2 from "./images/slide2.png";
 import slide3 from "./images/slide3.png";
 import slide4 from "./images/slide4.png";
