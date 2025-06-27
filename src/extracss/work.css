@@ -14,7 +14,12 @@
 .print{
     padding-top: 1em;
 }
-
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 @media (max-width: 600px) {
     .list {
         font-size: 16px;

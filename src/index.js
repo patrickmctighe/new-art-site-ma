@@ -1,11 +1,10 @@
 import { createHome } from "./home";
+import "./main.css";
 
-import "./home.css";
-function setupTabs() {
-  
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+document.addEventListener('DOMContentLoaded', () => {
   createHome();
-}
-
-setupTabs();
-
-export { setupTabs };
+});

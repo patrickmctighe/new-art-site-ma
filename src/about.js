@@ -1,5 +1,3 @@
-import "./about.css";
-import "./btn.css";
 import { createTabs } from "./tabs.js";
 
 const createAbout = () => {
@@ -19,6 +17,10 @@ const createAbout = () => {
     () => createAbout()
   );
 
+  setTimeout(() => {
+    window.dispatchEvent(new Event('resize'));
+  }, 0);
+
   const aboutText1 = document.createElement("h3");
   aboutText1.setAttribute("class", "text");
   aboutText1.setAttribute("id", "text1");
@@ -36,7 +38,7 @@ const createAbout = () => {
     `Aimée is the grand-niece of Beat writer and poet ${alex} .`;
   aboutText3.innerHTML =
     `Her poetry has been exhibited at Reverberation in London, a project inspired by The Beatles seminal album ‘Sgt. Pepper’s Lonely Hearts Club Band’. She has exhibited her work at Flint Gallery in Norwich, theprintspace in London, and the Superette Gallery in Paris as a part of Never Turn Back, a photographic project headed by <a href='https://www.deanchalkley.com/theassembly/'>Dean Chalkley</a>. The two have collaborated on a publication titled One which focuses on the idea of subculture and is available through Antenne Books.`;
-  aboutText4.innerHTML = `She is represented by Stephanie Cabot at <a href= "https://www.susannalea.com/sla-author/aimee-keeble/"> Susanna Lea Associates</a>.`;
+  aboutText4.innerHTML = `She is represented by Stephanie Cabot at <a href="https://www.susannalea.com/sla-author/aimee-keeble/">Susanna Lea Associates</a>.`;
 
   page.append(aboutText1, aboutText2, aboutText3, aboutText4);
 

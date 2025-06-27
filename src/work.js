@@ -1,7 +1,5 @@
 import { printLinks } from "./printLinks.js";
 import { swLinks } from "./swLinks.js";
-import "./work.css";
-import "./btn.css";
 import { createTabs } from "./tabs.js";
 
 const createWork = () => {
@@ -20,6 +18,10 @@ const createWork = () => {
       createAbout();
     }
   );
+
+  setTimeout(() => {
+    window.dispatchEvent(new Event('resize'));
+  }, 0);
 
   // Print title and links
   const printHead = document.createElement("h1");
