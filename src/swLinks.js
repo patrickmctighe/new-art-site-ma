@@ -69,10 +69,7 @@ const swLinks = [
     text: "What remained [Coven Poetry]",
     url: "https://covenpoetry.files.wordpress.com/2021/05/coven-issue-2-2.pdf",
   },
-  {
-    text: "The Execution of Lady Jane Grey [Truffle Magazine]",
-    url: "https://www.trufflemagazine.com/issue03/#the-execution-of-lady-jane-grey",
-  },
+ 
   {
     text: "Sputnik [Issue 4 of Molecule] - Pushcart Prize-nominated ",
     url: "https://moleculetinylitmag.art.blog/",
@@ -85,10 +82,7 @@ const swLinks = [
     text: "Rime of the Mariner's Sons [Writers’ Kingston]",
     url: "https://www.youtube.com/watch?v=gBN1WiCERjg",
   },
-  {
-    text: "According to Mary [Nymphs Publications]",
-    url: "https://nymphspublications.com/new-blog/according-to-mary-by-aime-keeble",
-  },
+
   {
     text: "Sorry Megan Fox [Spilling Ink]",
     url: "https://spillinginkzine.wixsite.com/blog/post/sorry-megan-fox",
@@ -134,10 +128,7 @@ const swLinks = [
     url: "https://www.3ammagazine.com/3am/poembrut99/",
   },
  
-  {
-    text: "At the waterhole [The Nervous Breakdown]",
-    url: "https://thenervousbreakdown.com/author/akeeble/",
-  },
+
   {
     text: "Hegira [Eunoia Review]",
     url: "https://eunoiareview.wordpress.com/2020/06/14/hegira/",
@@ -146,10 +137,7 @@ const swLinks = [
     text: " Dear KJ [Heroin Chic]",
     url: "http://heroinchic.weebly.com/blog/dear-kj-by-aimee-keeble",
   },
-  {
-    text: "A Poem [Sons and Daughters]",
-    url: "https://www.sonsanddaughtersjournal.com/latest-posts-1/a-poem-by-aimee-keeble",
-  },
+  
   {
     text: " Oh! [Dean Chalkley]",
     url: "https://www.deanchalkley.com/projects/oh/",

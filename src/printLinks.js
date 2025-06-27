@@ -7,14 +7,7 @@ const printLinks = [
     text:"Olney Magazine Dissents Issue, Honorarium Winner, I am No Mare",
     url: "https://www.olneymagazine.com/store/p/issue-5-pre-order",
   },
-  {
-    text: "Letter to a Stranger ",
-    url: "https://brazosriverreview.com/books-orders/",
-  },
-  {
-    text: "To Spring From You Divine",
-    url: "https://www.quorumquorum.com/tospring",
-  },
+  
   {
     text: "Road to Avalon",
     url: "https://www.musicglue.com/ida-mae/browse/ida-mae-us/products/road-to-avalon-photo-journal-book-by-chris-turpin-signed-first-edition",
